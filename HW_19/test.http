@@ -1,0 +1,13 @@
+POST http://127.0.0.1:5000/auth/
+Content-Type: application/json
+
+{
+"username": "oleg",
+"password": "P@ssw0rd"
+}
+
+###
+
+GET http://127.0.0.1:5000/movies/6
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE2NTQxODQyODN9.WaSOXRSO_46egNCymaduTELB2CZgCimTNrp6_fKiMok
